@@ -11,7 +11,7 @@ could only handle about 70% of those on its own.
 The purpose and features for each solver is documented with each solver in great detail,
 but to boil each down to its main idea...
 
-BackTrackingSudokuSolver uses recursive backtracking and therefore can theoretically solve any puzzle, no matter how difficult it's solution is to deduce logically (although compared to the others, it is quite slow).
+BacktrackingSudokuSolver uses recursive backtracking and therefore can theoretically solve any puzzle, no matter how difficult it's solution is to deduce logically (although compared to the others, it is quite slow).
 
 DeductiveSudokuSolver solves puzzles uses only human-understandable logic, so it's a good tool to use if you want to know how you could've solved a puzzle. It also tends to be MUCH FASTER than the backtracker.
 
